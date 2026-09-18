@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI WasteWise</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">♻️ AI WasteWise</div>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#how">How It Works</a>
+            <a href="#impact">Impact</a>
+        </nav>
+    </header>
+
+    <section class="hero" id="home">
+
+        <div class="hero-text">
+            <p class="tag">AI + SUSTAINABILITY</p>
+
+            <h1>Make Waste<br>
+                <span>Smarter.</span>
+            </h1>
+
+            <p class="description">
+                Identify waste, find the right disposal method,
+                and make a positive impact on the environment.
+            </p>
+
+            <a href="#analyzer" class="main-btn">
+                ♻️ Identify Waste
+            </a>
+        </div>
+
+        <div class="hero-card">
+            <div class="circle">♻️</div>
+            <h2>Smart Waste<br>Segregation</h2>
+            <p>AI-powered guidance for better waste management.</p>
+        </div>
+
+    </section>
+
+
+    <section class="analyzer" id="analyzer">
+
+        <div class="section-title">
+            <p class="tag">AI WASTE ANALYZER</p>
+            <h2>What type of waste is it?</h2>
+            <p>Enter a waste item and let AI WasteWise guide you.</p>
+        </div>
+
+        <div class="analyzer-box">
+
+            <div class="input-area">
+
+                <label>Enter waste item</label>
+
+                <input
+                    type="text"
+                    id="wasteInput"
+                    placeholder="Example: plastic bottle"
+                >
+
+                <button onclick="analyzeWaste()">
+                    🔍 Analyze Waste
+                </button>
+
+                <p class="or">or upload an image</p>
+
+                <input
+                    type="file"
+                    id="imageInput"
+                    accept="image/*"
+                >
+
+            </div>
+
+            <div class="result-area" id="result">
+
+                <div class="result-placeholder">
+                    <div>🤖</div>
+                    <h3>AI Result</h3>
+                    <p>
+                        Your waste classification and disposal
+                        recommendation will appear here.
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section class="how" id="how">
+
+        <div class="section-title">
+            <p class="tag">HOW IT WORKS</p>
+            <h2>Simple. Smart. Sustainable.</h2>
+        </div>
+
+        <div class="steps">
+
+            <div class="step">
+                <div class="step-number">01</div>
+                <h3>Enter Waste</h3>
+                <p>Enter the name of a waste item or upload an image.</p>
+            </div>
+
+            <div class="step">
+                <div class="step-number">02</div>
+                <h3>AI Analysis</h3>
+                <p>AI analyzes the input and identifies its waste category.</p>
+            </div>
+
+            <div class="step">
+                <div class="step-number">03</div>
+                <h3>Get Guidance</h3>
+                <p>Receive disposal instructions and a sustainability tip.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section class="impact" id="impact">
+
+        <div class="section-title">
+            <p class="tag">OUR IMPACT</p>
+            <h2>Small actions. Bigger impact.</h2>
+        </div>
+
+        <div class="impact-cards">
+
+            <div class="impact-card">
+                <div>🌱</div>
+                <h3>Less Pollution</h3>
+                <p>Better segregation can reduce improper waste disposal.</p>
+            </div>
+
+            <div class="impact-card">
+                <div>♻️</div>
+                <h3>More Recycling</h3>
+                <p>Correct classification helps recyclable waste reach the right stream.</p>
+            </div>
+
+            <div class="impact-card">
+                <div>🌍</div>
+                <h3>SDG 12</h3>
+                <p>Promotes responsible consumption and production.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <footer>
+        <h3>♻️ AI WasteWise</h3>
+        <p>AI for a cleaner and more sustainable future.</p>
+        <p class="footer-small">SDG 11 • SDG 12 • SDG 13</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
