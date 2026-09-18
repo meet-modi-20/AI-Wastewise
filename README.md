@@ -1,6 +1,3 @@
-from pathlib import Path
-
-readme = r"""# ♻️ AI WasteWise
 
 ### AI-Powered Smart Waste Segregation & Sustainability Assistant
 
